@@ -40,7 +40,7 @@ layer {
 ### convolutionC1-C2
 layer {
   name: "conv1"
-  type: "Convolution"
+  type: "BinaryConvolution"
   bottom: "data"
   top: "conv1"
   param {
@@ -57,6 +57,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ##batch normalization1
@@ -84,7 +86,7 @@ layer {
 }
 layer {
   name: "conv2"
-  type: "Convolution"
+  type: "BinaryConvolution"
   bottom: "conv1_sc"
   top: "conv2"
   param {
@@ -101,6 +103,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ##batch normalization1
@@ -150,7 +154,7 @@ layer {
 #c3-c4
 layer {
   name: "conv3"
-  type: "Convolution"
+  type: "BinaryConvolution"
   bottom: "pool1"
   top: "conv3"
   param {
@@ -167,6 +171,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ##batch normalization1
@@ -195,7 +201,7 @@ layer {
 }
 layer {
   name: "conv4"
-  type: "Convolution"
+  type: "BinaryConvolution"
   bottom: "conv3_sc"
   top: "conv4"
   param {
@@ -212,6 +218,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ##batch normalization1
@@ -261,7 +269,7 @@ layer {
 
 layer {
   name: "conv5"
-  type: "Convolution"
+  type: "BinaryConvolution"
   bottom: "pool2"
   top: "conv5"
   param {
@@ -278,6 +286,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ##batch normalization1
@@ -306,7 +316,7 @@ layer {
 }
 layer {
   name: "conv6"
-  type: "Convolution"
+  type: "BinaryConvolution"
   bottom: "conv5_sc"
   top: "conv6"
   param {
@@ -323,6 +333,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ##batch normalization1
@@ -371,7 +383,7 @@ layer {
 
 layer {
   name: "fc7"
-  type: "InnerProduct"
+  type: "BinaryInnerProduct"
   bottom: "pool3"
   top: "fc7"
   param {
@@ -385,6 +397,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ##batch normalization1
@@ -421,7 +435,7 @@ layer {
 }
 layer {
   name: "fc8"
-  type: "InnerProduct"
+  type: "BinaryInnerProduct"
   bottom: "fc7_sc"
   top: "fc8"
   param {
@@ -435,6 +449,8 @@ layer {
       std: 0.01
     }
     bias_term: false
+	sq: true
+	ratio: 100
   }
 }
 ###batch normalization1
@@ -472,7 +488,7 @@ layer {
 }
 layer {
   name: "fc9"
-  type: "InnerProduct"
+  type: "BinaryInnerProduct"
   bottom: "fc8_sc"
   top: "fc9"
   param {
@@ -492,7 +508,9 @@ layer {
     bias_filler {
       type: "constant"
       value: 0.01
-     }
+    }
+	sq: true
+	ratio: 100
   }
 }
 

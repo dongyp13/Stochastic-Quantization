@@ -10,5 +10,5 @@ stepsize: 15000
 display: 200
 max_iter: 100000
 snapshot: 10000
-snapshot_prefix: "model/cifar_vgg9_FWN"
+snapshot_prefix: "model/cifar_vgg9_BWN"
 solver_mode: GPU
