@@ -10,7 +10,7 @@ layer {
   transform_param {
     mirror: true
     crop_size: 224
-	mean_file: "PATH-TO-IMAGENET/imagenet_mean.binaryproto"
+    mean_file: "PATH-TO-IMAGENET/imagenet_mean.binaryproto"
   }
   data_param {
     source: "PATH-TO-IMAGENET/ilsvrc12_train_lmdb"
@@ -55,8 +55,8 @@ layer {
       type: "msra"
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -111,8 +111,8 @@ layer {
       type: "msra"
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -166,8 +166,8 @@ layer {
       type: "msra"
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -211,8 +211,8 @@ layer {
       type: "msra"
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -256,8 +256,8 @@ layer {
       type: "msra"
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -309,8 +309,8 @@ layer {
       type: "msra"
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -360,8 +360,8 @@ layer {
       type: "msra"
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -418,8 +418,8 @@ layer {
       type: "constant"
       value: 0
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {

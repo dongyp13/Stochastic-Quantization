@@ -10,7 +10,7 @@ layer {
   transform_param {
     mirror: true
     crop_size: 224
-	mean_file: "PATH-TO-IMAGENET/imagenet_mean.binaryproto"
+    mean_file: "PATH-TO-IMAGENET/imagenet_mean.binaryproto"
   }
   data_param {
     source: "PATH-TO-IMAGENET/ilsvrc12_train_lmdb"
