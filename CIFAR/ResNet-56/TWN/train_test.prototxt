@@ -10,7 +10,7 @@ layer {
   transform_param {
     scale: 0.0078125
     mirror: true
-	crop_size: 32
+    crop_size: 32
     mean_file: "PATH-TO-CIFAR-10(100)/mean.binaryproto"
   }
   data_param {
@@ -30,7 +30,7 @@ layer {
   transform_param {
     scale: 0.0078125
     mirror: false
-	crop_size: 32
+    crop_size: 32
     mean_file: "PATH-TO-CIFAR-10(100)/mean.binaryproto"
   }
   data_param {
