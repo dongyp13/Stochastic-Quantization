@@ -45,7 +45,7 @@ layer {
   top: "conv1"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 64
@@ -89,7 +89,7 @@ layer {
   top: "conv2"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 64
@@ -155,7 +155,7 @@ layer {
   top: "conv3"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 128
@@ -200,7 +200,7 @@ layer {
   top: "conv4"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 128
@@ -266,7 +266,7 @@ layer {
   top: "conv5"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 256
@@ -311,7 +311,7 @@ layer {
   top: "conv6"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 256

@@ -45,7 +45,7 @@ layer {
   top: "conv1"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 64
@@ -57,8 +57,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ##batch normalization1
@@ -91,7 +91,7 @@ layer {
   top: "conv2"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 64
@@ -103,8 +103,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ##batch normalization1
@@ -159,7 +159,7 @@ layer {
   top: "conv3"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 128
@@ -171,8 +171,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ##batch normalization1
@@ -206,7 +206,7 @@ layer {
   top: "conv4"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 128
@@ -218,8 +218,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ##batch normalization1
@@ -274,7 +274,7 @@ layer {
   top: "conv5"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 256
@@ -286,8 +286,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ##batch normalization1
@@ -321,7 +321,7 @@ layer {
   top: "conv6"
   param {
     lr_mult: 1
-	decay_mult: 1
+    decay_mult: 1
   }
   convolution_param {
     num_output: 256
@@ -333,8 +333,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ##batch normalization1
@@ -397,8 +397,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ##batch normalization1
@@ -449,8 +449,8 @@ layer {
       std: 0.01
     }
     bias_term: false
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 ###batch normalization1
@@ -509,8 +509,8 @@ layer {
       type: "constant"
       value: 0.01
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 

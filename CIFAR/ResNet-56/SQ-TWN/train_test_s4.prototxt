@@ -57,8 +57,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -111,8 +111,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -165,8 +165,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -223,8 +223,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -277,8 +277,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -335,8 +335,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -389,8 +389,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -447,8 +447,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -501,8 +501,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -559,8 +559,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -613,8 +613,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -671,8 +671,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -725,8 +725,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -783,8 +783,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -837,8 +837,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -895,8 +895,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -949,8 +949,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1007,8 +1007,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1061,8 +1061,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1119,8 +1119,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1173,8 +1173,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1221,8 +1221,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1279,8 +1279,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1333,8 +1333,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1391,8 +1391,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1445,8 +1445,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1503,8 +1503,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1557,8 +1557,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1615,8 +1615,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1669,8 +1669,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1727,8 +1727,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1781,8 +1781,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1839,8 +1839,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1893,8 +1893,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -1951,8 +1951,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2005,8 +2005,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2063,8 +2063,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2117,8 +2117,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2175,8 +2175,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2229,8 +2229,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2277,8 +2277,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2335,8 +2335,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2389,8 +2389,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2447,8 +2447,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2501,8 +2501,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2559,8 +2559,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2613,8 +2613,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2671,8 +2671,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2725,8 +2725,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2783,8 +2783,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2837,8 +2837,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2895,8 +2895,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -2949,8 +2949,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -3007,8 +3007,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -3061,8 +3061,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -3119,8 +3119,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -3173,8 +3173,8 @@ layer {
     weight_filler {
       type: "msra"
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
@@ -3246,8 +3246,8 @@ layer {
       type: "constant"
       value: 0
     }
-	sq: true
-	ratio: 100
+    sq: true
+    ratio: 100
   }
 }
 layer {
