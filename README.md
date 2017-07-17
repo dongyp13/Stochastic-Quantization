@@ -11,6 +11,7 @@ Please follow the standard [installation](http://caffe.berkeleyvision.org/instal
 ```shell
 cd caffe/
 make
+cd ..
 ```
 We add the BinaryConvolution, BinaryInnerProduct, TernaryConvolution and TernaryInnerProduct layers.
 
