@@ -13,7 +13,6 @@ cd caffe/
 make
 cd ..
 ```
-We add the BinaryConvolution, BinaryInnerProduct, TernaryConvolution and TernaryInnerProduct layers.
 
 ### Training and Testing
 #### CIFAR
@@ -74,5 +73,15 @@ For ImageNet, we provide AlexNet-BN and ResNet-18 network architectures. For exa
 ./ImageNet/ResNet-18/SQ-TWN/train.sh
 ```
 
+## Implementation
+
+### Layers
+We add [BinaryConvolution](caffe/src/caffe/layers/conv_layer_binary.cu), [BinaryInnerProduct](caffe/src/caffe/layers/inner_product_layer_binary.cu), [TernaryConvolution](caffe/src/caffe/layers/conv_layer_ternary.cu) and [TernaryInnerProduct](caffe/src/caffe/layers/inner_product_layer_ternary.cu) layers to train binary or ternary networks. We also put useful functions of low-bits DNNs in [lowbit-functions](caffe/src/caffe/util/lowbit_functions.cu).
+
+### Params
+We add two more parameters in `convolution_param` and `inner_product_param`, which are `sq` and `ratio`. `sq` means whether to use stochastic quantization (default to `false`). `ratio` is the SQ ratio (default to 100).
+
 ### Note
 Our codes can only run appropriately on GPU. CPU version should be further implemented.
+
+Have fun to deploy your own low-bits DNNs!
