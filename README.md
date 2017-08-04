@@ -1,6 +1,6 @@
 # Stochastic-Quantization
 ## Introduction
-This repository contains the codes for training and testing <b>Stocastic Quantization</b> described in the paper "Learning Accurate Low-bit Deep Neural Networks with Stochastic Quantization" (BMVC 2017, Oral).
+This repository contains the codes for training and testing <b>Stocastic Quantization</b> described in the paper "Learning Accurate Low-bit Deep Neural Networks with Stochastic Quantization"[arXiv](https://arxiv.org/abs/1708.01001) (BMVC 2017, Oral).
 
 We implement our codes based on [Caffe](https://github.com/BVLC/caffe) framework. Our codes can be used for training BWN (Binary Weighted Networks), TWN (Ternary Weighted Networks), SQ-BWN and SQ-TWN.
 
